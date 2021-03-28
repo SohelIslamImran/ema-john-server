@@ -10,7 +10,7 @@ app.use(cors());
 const port = 8000;
 
 app.get('/', (req, res) => {
-    res.send('My Database is running')
+    res.send('Ema-John Server is Running')
 })
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@database.1n8y8.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
